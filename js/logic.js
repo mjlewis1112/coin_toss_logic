@@ -27,7 +27,7 @@ function flipCoin(x) {
     } else {
         toss = 'Tails';
     }
-}
+
     // Determines the result of guess
     let status; // to hold the result of the guess
     if (pick === toss ) {
@@ -56,7 +56,6 @@ function resetScore() {
     gamesPlayed = 0;
     gamesWon = 0;
     gamesLost = 0;
-}
 
 
 
