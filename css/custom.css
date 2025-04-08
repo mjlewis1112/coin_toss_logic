@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+}
+main {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs {
+    display: flex;
+    gap: 1em;
+}
+button {
+    min-width: 8rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1em;
+}
+span {
+    font-size: 150%;
+    font-weight: bold;
+}
+.flex {
+    display: flex;
+    gap: 2rem;
+}
+.current, .history {
+    border: 2px solid #ccc;
+    padding: 1rem 2rem;
+    width: 400px;
+}
